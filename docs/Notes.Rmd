@@ -1,0 +1,24 @@
+---
+title: "Bayesian statistics notes"
+output: html_notebook
+---
+
+# Day 1
+
+## 1.1 Introduction
+
+Correlated slope and intercept make sense as changing the slope add noise in the intercept.
+
+## 1.2 Stan coding
+
+Using vectors `vector[n] x`rather then real `real x[n]` may be safer
+
+Anyway using for loop is always sa
+
+# Day 2
+
+WARNING when extracting results
+
+mean(fn(x)) != fn(mean(x))
+
+always plot observed \~ predicted plot and residuals against the predicted values
